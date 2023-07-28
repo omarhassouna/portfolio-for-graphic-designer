@@ -1,0 +1,677 @@
+:root{
+    --main-color: black;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    background-image: url(../img/bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.layer{
+    background-color: rgba(0,0,0, 0.6);
+    width: 100%;
+    height: 100%;
+
+}
+.icon{
+    width: 35px;
+    height: 35px;
+    background-color: rgba(0,0,0, 0.3);
+}
+.content h1{
+    
+   text-align: center;
+}
+.content h1::after{
+    content: "|";
+    animation: typing 10s infinite;
+    -webkit-animation: typing 10s infinite;
+
+    
+}
+@keyframes typing {
+    0% {
+        content: "A|";
+    }
+
+    1% {
+        content: "A |";
+    }
+
+    2% {
+        content: "A G|";
+    }
+
+    3% {
+        content: "A Gr|";
+    }
+
+    4% {
+        content: "A Gra|";
+    }
+
+    5% {
+        content: "A Grap|";
+    }
+
+    6% {
+        content: "A Graph|";
+    }
+
+    7% {
+        content: "A Graphi|";
+    }
+
+    8% {
+        content: "A Graphic|";
+    }
+
+    9% {
+        content: "A Graphic |";
+    }
+
+    10% {
+        content: "A Graphic D|";
+    }
+
+    11% {
+        content: "A Graphic De|";
+    }
+
+    13% {
+        content: "A Graphic Des|";
+    }
+
+    14% {
+        content: "A Graphic Desi|";
+    }
+
+    15% {
+        content: "A Graphic Desig|";
+    }
+
+    16% {
+        content: "A Graphic Design|";
+    }
+
+    17% {
+        content: "A Graphic Designe|";
+    }
+
+    18% {
+        content: "A Graphic Designer|";
+    }
+
+    19% {
+        content: "A Graphic Designer.|";
+    }
+
+    20% {
+        content: "A Graphic Designer.|";
+    }
+
+    21% {
+        content: "A Graphic Designer.|";
+    }
+
+    22% {
+        content: "A Graphic Designer|";
+    }
+
+    23% {
+        content: "A Graphic Designe|";
+    }
+
+    24% {
+        content: "A Graphic Design|";
+    }
+
+    25% {
+        content: "A Graphic Desig|";
+    }
+
+    25% {
+        content: "A Graphic Desi|";
+    }
+
+    26% {
+        content: "A Graphic Des|";
+    }
+
+    27% {
+        content: "A Graphic De|";
+    }
+
+    28% {
+        content: "A Graphic D|";
+    }
+
+    29% {
+        content: "A Graphic |";
+    }
+
+    30% {
+        content: "A Graphic|";
+    }
+
+    31% {
+        content: "A Graphi|";
+    }
+
+    32% {
+        content: "A Graph|";
+    }
+
+    33% {
+        content: "A Grap|";
+    }
+
+    34% {
+        content: "A Gra|";
+    }
+
+    35% {
+        content: "A Gr|";
+    }
+
+    36% {
+        content: "A G|";
+    }
+
+    37% {
+        content: "A |";
+    }
+
+    38% {
+        content: "A P|";
+    }
+
+    39% {
+        content: "A Ph|";
+    }
+
+    40% {
+        content: "A Pho|";
+    }
+
+    41% {
+        content: "A Phot|";
+    }
+
+    42% {
+        content: "A Photo|";
+    }
+
+    43% {
+        content: "A Photog|";
+    }
+
+    44% {
+        content: "A Photogr|";
+    }
+
+    45% {
+        content: "A Photogra|";
+    }
+
+    46% {
+        content: "A Photograp|";
+    }
+
+    47% {
+        content: "A Photograph|";
+    }
+
+    48% {
+        content: "A Photographe|";
+    }
+
+    49% {
+        content: "A Photographer|";
+    }
+
+    50% {
+        content: "A Photographer.|";
+    }
+
+    51% {
+        content: "A Photographer.|";
+    }
+
+    52% {
+        content: "A Photographer.|";
+    }
+
+    53% {
+        content: "A Photographer|";
+    }
+
+    54% {
+        content: "A Photographe|";
+    }
+
+    55% {
+        content: "A Photograph|";
+    }
+
+    56% {
+        content: "A Photograp|";
+    }
+
+    57% {
+        content: "A Photogra|";
+    }
+
+    58% {
+        content: "A Photogr|";
+    }
+
+    59% {
+        content: "A Photog|";
+    }
+
+    60% {
+        content: "A Photo|";
+    }
+
+    61% {
+        content: "A Phot|";
+    }
+
+    62% {
+        content: "A Pho|";
+    }
+
+    63% {
+        content: "A Ph|";
+    }
+
+    64% {
+        content: "A P|";
+    }
+
+    65% {
+        content: "A |";
+    }
+
+    66% {
+        content: "A|";
+    }
+
+    67% {
+        content: "|";
+    }
+
+    68% {
+        content: "K|";
+    }
+
+    69% {
+        content: "Ke|";
+    }
+
+    70% {
+        content: "Ker|";
+    }
+
+    71% {
+        content: "Kerr|";
+    }
+
+    72% {
+        content: "Kerri|";
+    }
+
+    73% {
+        content: "Kerri |";
+    }
+
+    74% {
+        content: "Kerri D|";
+    }
+
+    75% {
+        content: "Kerri De|";
+    }
+
+    76% {
+        content: "Kerri Deo|";
+    }
+
+    77% {
+        content: "Kerri Deo.|";
+    }
+
+    78% {
+        content: "Kerri Deo.|";
+    }
+
+    79% {
+        content: "Kerri Deo.|";
+    }
+
+    80% {
+        content: "Kerri Deo|";
+    }
+
+    81% {
+        content: "Kerri De|";
+    }
+
+    82% {
+        content: "Kerri D|";
+    }
+
+    83% {
+        content: "Kerri |";
+    }
+
+    84% {
+        content: "Kerri|";
+    }
+
+    85% {
+        content: "Kerr|";
+    }
+
+    86% {
+        content: "Ker|";
+    }
+
+    87% {
+        content: "Ke|";
+    }
+
+    88% {
+        content: "K|";
+    }
+
+    89% {
+        content: "|";
+    }
+
+    90% {
+        content: "|";
+    }
+
+    91% {
+        content: "|";
+    }
+
+    92% {
+        content: "|";
+    }
+
+    93% {
+        content: "|";
+    }
+
+    94% {
+        content: "|";
+    }
+
+    95% {
+        content: "|";
+    }
+
+    96% {
+        content: "|";
+    }
+
+    97% {
+        content: "|";
+    }
+
+    98% {
+        content: "|";
+    }
+
+    99% {
+        content: "|";
+    }
+
+    100% {
+        content: "|";
+    }
+}
+.icon2{
+    width: 60px;
+    height: 60px;
+    background-color: rgb(227, 227, 227);
+    transition: all 1s ;
+    -webkit-transition: all 1s ;
+    -moz-transition: all 1s ;
+    -ms-transition: all 1s ;
+    -o-transition: all 1s ;
+}
+.services-items:hover .icon2{
+    color: white;
+    background-color:black;
+}
+.title{
+    font-weight: 900;
+    font-size: 45px;
+    z-index: 4;
+    position: relative;
+   
+}
+.title::after{
+    content: '';
+    width: 15%;
+    height: 80%;
+    position: absolute;
+    left: 35%;
+    bottom: 0;
+    background-image: url(../img/dots.png);
+    background-repeat: repeat;
+    transform: translate(50%);
+    z-index: -1;
+}
+.degree{
+    width: 70%;
+    height: 25px;
+    background-color:#f7f7f7;
+    border: 1px solid rgba(181, 181, 181, 0.607);
+    box-shadow: inset;
+    border-radius:5px;
+
+    -webkit-border-radius: 5px;
+    -moz-border-radius:5px;
+    -ms-border-radius:5px;
+    -o-border-radius:5px;
+    -webkit-border-radius:5px;
+}
+.percentage{
+    height: 100%;
+    width: 95%;
+    background-color: black;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.percentage2{
+    height: 100%;
+    width: 80%;
+    background-color: black;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.percentage3{
+    height: 100%;
+    width: 90%;
+    background-color: black;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.btn1{
+    padding: 10px  30px;
+    margin: 20px 0px 0px;
+    background-color: var(--main-color);
+    color: #f7f7f7;
+    border: solid 2px var(--main-color);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+}
+.btn1:hover{
+    background-color:#f7f7f7 ;
+    color:var(--main-color) ;
+    border: solid 1px var(--main-color);
+}
+.btn2{
+    padding: 10px  30px;
+    margin: 20px 0px 0px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    color: rgb(43, 43, 43);
+    border: 2px solid var(--main-color);
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+}
+.btn2:hover{
+    color:#f7f7f7 ;
+    background-color:var(--main-color) ;
+    border: solid 1px var(--main-color);
+}
+.work-img{
+    position: relative;
+}
+.layer-img{
+    width:100% ;
+    height: 100%;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    transition: all 2s;
+    -webkit-transition: all 2s;
+    -moz-transition: all 2s;
+    -ms-transition: all 2s;
+    -o-transition: all 2s;
+}
+.work-img:hover .layer-img{
+    opacity: 1;
+    border: 10px rgba(128, 128, 128, 0.679) solid;
+}
+.icon3{
+    width: 30px;
+    height: 30px;
+    background-color:var(--main-color);
+    color: white;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+}
+.icon3:hover{
+    background-color: white;
+    color:var(--main-color);
+}
+.nav-pills .nav-link.active{
+    background-color: white;
+    border-bottom: 3px solid black;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+
+}
+.carousel-indicators [data-bs-target]{
+    background-color: rgb(86, 97, 91);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    margin: 0px 5px;
+}
+.carousel-indicators{
+    top: 100%;
+}
+.blog{
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+.blog-read{
+    border-bottom: 2px solid var(--main-color);
+}
+.blog-items{
+    
+    
+}
+.blog-img{
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    overflow: hidden;
+   
+}
+.blog-items:hover  .blog-img{
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+.numbers h3 {
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+.contact h6{
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.contact:hover .icon2{
+    color: white;
+    background-color:black;
+} 
+.btn{
+    width: 130px;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+}
+.btn:hover{
+    background-color: white;
+    color: var(--main-color);
+}
+.footer{
+    height: 100px;
+    background-color: var(--main-color);
+}
+
